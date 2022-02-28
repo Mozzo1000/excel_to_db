@@ -3,7 +3,7 @@ import sqlite3
 import sys
 
 class DBImporter:
-    def ___init__(self, db_name, db_table, excel_file):
+    def __init__(self, db_name, db_table, excel_file):
         self.db_name = db_name
         self.db_table = db_table
         self.excel_file = excel_file
